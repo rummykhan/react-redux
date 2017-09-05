@@ -1,7 +1,5 @@
 const todos = (state = [], action) => {
-
-    console.log('reducers/todos');
-
+    console.log(' > reducers/todos.js');
     switch (action.type) {
         case 'ADD_TODO':
             return [
