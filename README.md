@@ -33,12 +33,15 @@ After you've created the store, store has a method
 called dispatch you can dispatch the action.
 
 ```ecmascript 6
-store.dispatch(addTodo('read book'));
+store.dispatch(addTodo('Read book'));
 ```
 
 
 ## 2. Reducer:
-This function defines how your state should change when an action is happened
+Reducer gives the initial state of the app, and subsequently
+this function is responsible of how your app state should 
+change based on the dispatched action, or more specifically based 
+on the type of action.
 
 #### Reference Links
 * http://redux.js.org/docs/basics/
