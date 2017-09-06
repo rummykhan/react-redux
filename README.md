@@ -36,12 +36,13 @@ called dispatch you can dispatch the action.
 store.dispatch(addTodo('Read book'));
 ```
 
-
 ## 2. Reducer:
-Reducer gives the initial state of the app, and subsequently
-this function is responsible of how your app state should 
-change based on the dispatched action, or more specifically based 
-on the type of action.
+Reducer are functions that tells the store about the initial state 
+of the app, and subsequently this function is responsible of how 
+your app state should change based on the dispatched action, 
+or more specifically based on the type of action.
+
+> It's called a reducer because it's the type of function you would pass to Array.prototype.reduce(reducer, ?initialValue). 
 
 #### Reference Links
 * http://redux.js.org/docs/basics/
